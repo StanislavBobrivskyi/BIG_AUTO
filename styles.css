@@ -1,3 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  /* Інші скидання стилів, які вам можуть знадобитися */
+}
+
+/* Приклад стилізації заголовків */
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin-bottom: 80px;
+}
+
+/* Приклад скидання стилів для посилань */
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: medium;
+}
+
+.container {
+  margin-top: 60px;
+}
+
 body {
   background-color: rgba(168, 30, 37, 0.936);
   display: flex;
@@ -5,4 +32,16 @@ body {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.phone-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
 }
